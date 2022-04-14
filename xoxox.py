@@ -9,3 +9,6 @@ buttons = [Button(width=5, height=2, font=('Arial', 20, 'bold'), bg="green") for
 label.grid(row=0, column=0, columnspan=3)
 buttons[0].grid(row=1, column=0)
 buttons[1].grid(row=1, column=1)
+
+root.mainloop()
+
